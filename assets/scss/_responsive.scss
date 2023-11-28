@@ -1,0 +1,383 @@
+// Ipad pro 
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .navwrap .navbar_logo {
+        margin-left: 15px;
+    }
+
+    .navwrap {
+        backdrop-filter: unset;
+    }
+
+    .navwrap svg {
+        width: 22px;
+        fill: #fff;
+    }
+
+    .navbar-toggler:hover {
+        margin-right: 10px;
+        padding: 9px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: unset;
+    }
+
+    .navwrap .navbar-collapse.show {
+        left: 0;
+    }
+
+    .navwrap .layear_img {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        width: 100%;
+        transform: translate(50%);
+    }
+
+    .navwrap .navbar-collapse {
+        position: fixed;
+        width: 300px;
+        left: -300px;
+        top: 0;
+        background-color: rgba(34, 34, 42, 0.8);
+        backdrop-filter: blur(7px);
+        z-index: 9999;
+        padding: 20px;
+        transition: all 0.4s;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navwrap .nav-item .nav-link {
+        padding-bottom: 20px;
+    }
+
+    .hero_section .inner_content {
+        justify-content: center;
+    }
+
+    .hero_section .hero_img {
+        max-width: 560px;
+    }
+
+    .get_btn._hero_btn {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .hero_section h2 {
+        font-size: 56px;
+    }
+
+    .arrow_svg {
+        width: calc(100vw - 20px);
+    }
+
+    .check_now_section .inner_check_now {
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+
+    .about_all_section .inner_main {
+        justify-content: center;
+    }
+
+    .about_all_section h2 {
+        text-align: center;
+    }
+
+    .Sign_Up .main_inner_sign {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        gap: 40px;
+        padding: 30px 0px;
+    }
+
+    .Get_in_touch .layear_img {
+        max-width: 290px;
+        width: 100%;
+    }
+
+    .about_us .mandala_left {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .easily_step_section .right_img {
+        max-width: 230px;
+        width: 100%;
+        z-index: -1;
+    }
+}
+
+//  ipad 
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+
+    .hero_section {
+        padding-top: 80px;
+        padding-bottom: 47px;
+    }
+
+    .hero_section .inner_content {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .check_now_section .check_out_img {
+        max-width: 345px;
+        width: 100%;
+    }
+
+    .check_now_section .check_out_img .rateing_text {
+        max-width: 325px;
+        width: 100%;
+    }
+
+    .easily_step_section .inner_card {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .check_now_section .main_inner_btns {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .app_store_section h4 {
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+
+    .w33 {
+        width: 100% !important;
+    }
+
+    .footer_section .inner_footer {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    h2 {
+
+        font-size: 28px;
+    }
+
+    .Interesting_section .intersting_banner .sign_up_btn {
+        font-size: 14px;
+        max-width: 150px;
+        width: 100%;
+    }
+
+}
+
+//  mobile 
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    // index_page_start
+
+    .get_btn {
+        font-size: 12px;
+    }
+
+    .navwrap .navbar_logo {
+        max-width: 175px;
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .hero_section {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    .hero_section .inner_content {
+        flex-wrap: wrap-reverse;
+    }
+
+    .hero_section .hero_img {
+        max-width: 560px;
+    }
+
+    .hero_section h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .arrow_svg {
+        width: calc(100vw - 15px);
+        transform: translate(-50%, 50%);
+    }
+
+    .get_btn._hero_btn {
+        max-width: 165px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero_section .hero_inner_caption {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .slick-dots {
+        bottom: -22px;
+    }
+
+    .hero_section .left_hero_img {
+        max-width: 90px;
+        width: 100%;
+    }
+
+    .app_store_section .inner_app_store {
+        padding-top: 25px;
+        flex-wrap: wrap;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 14px
+    }
+
+    .check_now_section .more_country_btn {
+
+        flex-wrap: wrap;
+    }
+
+    .check_now_section .slider_check_now {
+        margin-top: 35px;
+    }
+
+    .about_us .about_us_card {
+        margin-bottom: 10px;
+
+    }
+
+    .about_us .mandala_left {
+        max-width: 210px;
+        width: 100%;
+    }
+
+    .easily_step_section {
+        padding-top: 35px;
+    }
+
+    .easily_step_section .right_img {
+        max-width: 235px;
+        width: 100%;
+    }
+
+    .easily_step_section .card_boxes {
+        padding: 25px;
+    }
+
+    .easily_step_section .inner_card {
+        margin-top: 30px;
+    }
+
+    .Interesting_section .intersting_banner {
+        padding: 25px;
+        margin: 40px 0px;
+    }
+
+    .Interesting_section .intersting_banner .sign_up_btn {
+        font-size: 12px;
+        max-width: 130px;
+        width: 100%;
+    }
+
+    .easily_step_section .card_box_img {
+        max-width: 50px;
+        width: 100px;
+    }
+
+    .easily_step_section .card_boxes p {
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+
+    .about_all_section .about_all_box {
+        padding: 35px 40px 35px 35px;
+    }
+
+    .Sign_Up .sign_btn {
+        margin: 4px;
+        max-width: 131px;
+        width: 100%;
+        height: 44px;
+        font-size: 12px;
+    }
+
+    .Sign_Up .inner_sign_up {
+        max-width: 351px;
+    }
+
+    .Sign_Up .form-control {
+        padding: 0px 24px;
+    }
+
+    .Get_in_touch .layear_img {
+
+        max-width: 255px;
+        width: 100%;
+    }
+
+    .Get_in_touch .send_btn {
+        max-width: 170px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .Get_in_touch {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .footer_section .inner_footer {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .footer_section .footer_logo {
+        max-width: 180px;
+        width: 100%;
+    }
+
+    // index_page_end
+
+    //   Sign_Up_page_start
+    .hero_section .sign_up_form .inner_heading {
+        margin-bottom: 15px;
+    }
+
+    .hero_section .sign_up_form {
+        padding: 25px;
+    }
+
+    .form-control {
+        padding: 10px 4px 10px 14px;
+    }
+
+    .hero_section .sign_up_form .socail_network {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 35px;
+    }
+    .get_btn {
+        max-width: 120px;
+        width: 100%;
+        height: 38px;
+    }
+
+    //   Sign_Up_page_end
+}
